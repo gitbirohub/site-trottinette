@@ -125,7 +125,7 @@ a[href]::after {
     word-break: break-all;
 }
 
-/* Ne pas afficher l'URL pour les liens internes (même domaine) */
+/* */
 a[href^="mailto"]::after {
     content: " (" attr(href) ")";
 }
